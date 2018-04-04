@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1522803485 source:c:\users\alumno\desktop\clase 4\ejemplo biblioteca\calculadora.c
+1522804135 source:c:\users\alumno\desktop\clase 4\ejemplo biblioteca\calculadora.c
 
 1522803513 source:c:\users\alumno\desktop\clase 4\ejemplo biblioteca\main.c
 	<stdio.h>
 	<stdlib.h>
 	"calculadora.h"
 
-1522803530 c:\users\alumno\desktop\clase 4\ejemplo biblioteca\calculadora.h
+1522803857 c:\users\alumno\desktop\clase 4\ejemplo biblioteca\calculadora.h
 

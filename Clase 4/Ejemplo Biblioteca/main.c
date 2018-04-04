@@ -7,5 +7,5 @@ int main()
 {
    int resultado;
    resultado = dividirEnteros(100, 4);
-   printf(resultado);
+   printf("%d", resultado);
 }
