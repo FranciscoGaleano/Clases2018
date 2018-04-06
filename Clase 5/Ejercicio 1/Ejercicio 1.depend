@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1522973659 source:c:\users\alumno\desktop\clases2018-master\clase 5\ejercicio 1\clase5.c
+
+1522973727 source:c:\users\alumno\desktop\clases2018-master\clase 5\ejercicio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clase5.h"
+
+1522970326 c:\users\alumno\desktop\clases2018-master\clase 5\ejercicio 1\clase5.h
+
