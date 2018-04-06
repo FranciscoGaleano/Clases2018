@@ -16,6 +16,8 @@ int main()
 
     mostrarArrayEnteros(listaNumeros, CANTIDAD);
 
+    promedioArrays(listaNumeros, CANTIDAD);
+
 
 
 

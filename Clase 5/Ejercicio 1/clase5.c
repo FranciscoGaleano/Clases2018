@@ -46,6 +46,24 @@ int mostrarArrayEnteros(int* array, int cantidad)
 }
 
 
-float promedioArrays(int* array)
+float promedioArray(int* array, int cantidad, int* divisor)
+{
+  int retorno = -1;
+  float promedio;
+
+
+  if(divisor > 0)
+  {
+      int i;
+      for(i = 0; i < cantidad; i++)
+      {
+
+      }
+      promedio = *array / divisor;
+      printf("El promedio es %.2f \n", promedio);
+      retorno = 0;
+  }
+  return retorno;
+}
 
 

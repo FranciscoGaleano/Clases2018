@@ -2,3 +2,6 @@ int getInt(char* mensaje, char* mensajeError, int intentos, int minimo, int maxi
 
 
 int mostrarArrayEnteros(int* array, int cantidad);
+
+
+float promedioArrays(int* array, int divisor);
