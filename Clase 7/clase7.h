@@ -1,0 +1,6 @@
+#ifndef CLASE7_H_INCLUDED
+#define CLASE7_H_INCLUDED
+
+
+
+#endif // CLASE7_H_INCLUDED
