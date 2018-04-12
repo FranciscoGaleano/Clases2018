@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523500534 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 1 calculadora\calculadora.c
+
+1523500245 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 1 calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+
