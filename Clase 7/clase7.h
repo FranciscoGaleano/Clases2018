@@ -1,6 +1,5 @@
-#ifndef CLASE7_H_INCLUDED
-#define CLASE7_H_INCLUDED
+int crearArray(int  * array, int cantidad);
 
+int mostrarArray(int * array, int cantidad);
 
-
-#endif // CLASE7_H_INCLUDED
+int ordenarArray(int * array, int cantidad, int orden);

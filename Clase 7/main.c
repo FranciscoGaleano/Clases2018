@@ -4,42 +4,16 @@
 
 int main()
 {
-    int array[QTY];
-    int flag;
-    int j;
-    int aux;
-
-    for(j = 0; j < QTY; j++)
-    {
-        printf("Ingrese un numero\n");
-        scanf("%d", &array[j]);
-    }
-
-    do
-    {
-        flag = 0;
-        for(j = 0; j < QTY-1; j++)
-        {
-            if(array[j] > array[j+1])
-            {
-                aux = array[j];
-                array[j] = array[j+1];
-                array[j+1] = aux;
-                flag = 1;
-            }
-        }
-    }while(flag);
-
-    printf("El numero mayor es %d\n", array[4]);
-
-
-
-
-
-
-
-
-
+    int arrayEnteros[QTY];
+    crearArray(arrayEnteros, QTY);
+    printf("El array creado es el siguiente\n");
+    mostrarArray(arrayEnteros, QTY);
+    printf("El array ordenado de mayor a menor seria\n");
+    ordenarArray(arrayEnteros, QTY, 1);
+    mostrarArray(arrayEnteros, QTY);
+    printf("El array ordenado de menor a mayor seria\n");
+    ordenarArray(arrayEnteros, QTY, 0);
+    mostrarArray(arrayEnteros, QTY);
 
 
 
