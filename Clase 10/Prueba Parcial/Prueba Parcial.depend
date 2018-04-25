@@ -1,11 +1,30 @@
 # depslib dependency file v1.0
-1446667744 source:c:\users\alumno\desktop\clase 10\prueba parcial\main.c
+1524618393 source:c:\users\alumno\desktop\clase 10\prueba parcial\main.c
 	<stdio.h>
 	<stdlib.h>
+	"usuario.h"
+	"producto.h"
+	"compra.h"
 
-1524606788 source:c:\users\alumno\desktop\clase 10\prueba parcial\producto.c
+1524618110 source:c:\users\alumno\desktop\clase 10\prueba parcial\producto.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
 
-1524606756 source:c:\users\alumno\desktop\clase 10\prueba parcial\usuario.c
+1524618379 source:c:\users\alumno\desktop\clase 10\prueba parcial\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
 
 1524606845 source:c:\users\alumno\desktop\clase 10\prueba parcial\venta.c
+
+1524609609 c:\users\alumno\desktop\clase 10\prueba parcial\usuario.h
+
+1524612236 c:\users\alumno\desktop\clase 10\prueba parcial\producto.h
+
+1524609168 c:\users\alumno\desktop\clase 10\prueba parcial\venta.h
+
+1524611815 source:c:\users\alumno\desktop\clase 10\prueba parcial\compra.c
+
+1524617912 c:\users\alumno\desktop\clase 10\prueba parcial\compra.h
 

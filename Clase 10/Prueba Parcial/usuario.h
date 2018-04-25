@@ -3,8 +3,9 @@
 
 typedef struct
     {
-        char* nombre;
-        char* apellido;
+        char nombre[50];
+        char apellido[50];
+        char password[50];
         int usuarioId;
         int isEmpty;
     }Usuario;

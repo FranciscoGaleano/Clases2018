@@ -31,9 +31,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="compra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="compra.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="producto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="producto.h" />
+		<Unit filename="usuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="usuario.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
