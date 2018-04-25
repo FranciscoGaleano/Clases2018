@@ -44,17 +44,10 @@ int emp_alta(Empleado * arrayEmpleados,int sizeArray,int id)
             break;
         }
         else{
-            arrayEmpleados[i] = arrayEmpleados[i+1];
-            arrayEmpleados[i+1] = arrayEmpleados[j];
-            printf("Ingrese el nombre del empleado.\n");
-            fflush(stdin);
-            gets(arrayEmpleados[j].nombre);
-            printf("Ingrese el apellido del empleado.\n");
-            fflush(stdin);
-            gets(arrayEmpleados[j].apellido);
-            arrayEmpleados[j].idEmpleado = j + 10;
-            arrayEmpleados[j].isEmpty = 0;
-            break;
+            while(arrayEmpleados[i].isEmpty == 0)
+            {
+                break;
+            }
         }
     }
 }
