@@ -27,15 +27,15 @@ int main()
     pantalla_altaForzada(array,QTY,"Berazategui","Mitre 150",5000,1);
 
     cont_altaForzada(contrataciones,LEN_CONT,array,QTY,0,"video.avi","20911911915",100);
-    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,0,"video1.avi","20911911915",400);
+    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,0,"video1.avi","10911911915",400);
     cont_altaForzada(contrataciones,LEN_CONT,array,QTY,0,"video2.avi","30911911915",300);
-    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video3.avi","30911911915",400);
+    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video3.avi","40911911915",400);
     cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video4.avi","40911911915",500);
-    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video5.avi","40911911915",600);
+    cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video5.avi","30911911915",600);
 
-    //informar_ConsultaFacturacion(contrataciones,LEN_CONT,array,QTY,"20911911915");
-    //informar_ListarContrataciones(contrataciones,LEN_CONT,array,QTY);
-    informar_ListarCantidadContratacionesImporte(contrataciones,LEN_CONT,array,QTY);
+    informar_ConsultaFacturacion(contrataciones,LEN_CONT,array,QTY,"20911911915");
+  //  informar_ListarContrataciones(contrataciones,LEN_CONT,array,QTY);
+  informar_ListarCantidadContratacionesImporte(contrataciones,LEN_CONT,array,QTY);
 
 
     do
@@ -67,11 +67,7 @@ int main()
 
                 break;
             case 7:
-                //cont_alta(contrataciones,LEN_CONT,array,QTY);
-
-            case 8:
-                printf("Indicar algunas cosas. Las cosas son:\n");
-                informar_ListarContrataciones(contrataciones, LEN_CONT, array, QTY);
+                cont_alta(contrataciones,LEN_CONT,array,QTY);
                 break;
 
 

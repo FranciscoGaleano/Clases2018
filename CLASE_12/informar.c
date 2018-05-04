@@ -10,6 +10,8 @@
 int informar_ConsultaFacturacion(Contratacion* arrayC,int limiteC,
               Pantalla* arrayP, int limiteP, char* cuit)
 {
+    //Se deberá ingresar el cuit del cliente y
+    //listar el importe a pagar por cada contratación.
     int retorno = -1;
     int i;
     int indexPantalla;
@@ -17,15 +19,15 @@ int informar_ConsultaFacturacion(Contratacion* arrayC,int limiteC,
     if(arrayC != NULL && arrayP != NULL && limiteC > 0 && limiteP > 0)
     {
         retorno = -2;
-        for(i=0; i < limiteC; i++)
+        for(i=0;i<limiteC;i++)
         {
-            if(!arrayC[i].isEmpty && !strcmp(arrayC[i].cuit, cuit))
+            if(!arrayC[i].isEmpty && !strcmp(arrayC[i].cuit,cuit))
             {
-                indexPantalla = pantalla_buscarPorId(arrayP, limiteP, arrayC[i].idPantalla);
-                printf("CUIT: %s - ID %d - Valor: %.2f\n",
-                        arrayC[i].cuit,
-                        arrayC[i].id,
-                        arrayC[i].dias*arrayP[indexPantalla].precio);
+                indexPantalla = pantalla_buscarPorId(arrayP,limiteP,arrayC[i].idPantalla);
+                printf("\nID: %d - Valor: %.2f",
+
+                       arrayC[i].id,
+                       arrayC[i].dias*arrayP[indexPantalla].precio);
                 retorno = 0;
             }
         }
@@ -41,15 +43,34 @@ int informar_ListarContrataciones(Contratacion* arrayC,int limite,
 {
     int retorno = -1;
 
-    int i;
+    return retorno;
+}
 
-    for(i=0; i < limite; i++)
+
+int informar_ListarCantidadContratacionesImporte(Contratacion* arrayC,int limiteC,
+              Pantalla* arrayP, int limiteP)
+{
+    /*Lista de cada cliente con cantidad de contrataciones e importe
+    a pagar por cada una.
+    */
+
+
+    int retorno = -1;
+    int i;
+    int indexPantalla;
+    char ultimoCuit[50]="-";
+    if(arrayC != NULL && arrayP != NULL && limiteC > 0 && limiteP > 0)
     {
-        if(limite >= 0 && !arrayC[i].isEmpty)
+        retorno = -2;
+        cont_ordenarCuit(arrayC,limiteC,0);
+        for(i=0;i<limiteC;i++)
         {
-            if(limite >= 0 && !arrayC[i].idPantalla)
+            if(!arrayC[i].isEmpty && strcmp(arrayC[i].cuit,ultimoCuit) != 0)
             {
-                printf("%s - %s - %d - %s\n", pantallas[i].nombre, arrayC[i].archivo, arrayC[i].dias, arrayC[i].cuit);
+                strcpy(ultimoCuit,arrayC[i].cuit);
+
+                printf("\n\nINFO DEL CUIT - %s -",ultimoCuit);
+                informar_ConsultaFacturacionTotal(arrayC,limiteC,arrayP,limiteP,ultimoCuit);
             }
         }
     }
@@ -58,30 +79,36 @@ int informar_ListarContrataciones(Contratacion* arrayC,int limite,
 }
 
 
-int informar_ListarCantidadContratacionesImporte(Contratacion* arrayC,int limiteC,
-              Pantalla* arrayP, int limiteP)
+int informar_ConsultaFacturacionTotal(Contratacion* arrayC,int limiteC,
+              Pantalla* arrayP, int limiteP, char* cuit)
 {
+    //Se deberá ingresar el cuit del cliente y
+    //listar el importe a pagar por cada contratación.
     int retorno = -1;
     int i;
-
-
-
+    int indexPantalla;
+    int contador=0;
+    float acumulador=0;
 
     if(arrayC != NULL && arrayP != NULL && limiteC > 0 && limiteP > 0)
     {
         retorno = -2;
-        cont_ordenarCuit(arrayC, limiteC, 1);
-        for(i=0; i < limiteC; i++)
+        for(i=0;i<limiteC;i++)
         {
-            if(!arrayC[i].isEmpty )
+            if(!arrayC[i].isEmpty && !strcmp(arrayC[i].cuit,cuit))
             {
+                indexPantalla = pantalla_buscarPorId(arrayP,limiteP,arrayC[i].idPantalla);
 
-
+                contador++;
+                acumulador += arrayC[i].dias*arrayP[indexPantalla].precio;
                 retorno = 0;
             }
-
         }
     }
 
+    printf("\nCantidad contrataciones: %d - Total: %.2f",
+
+                       contador,
+                       acumulador);
     return retorno;
 }
