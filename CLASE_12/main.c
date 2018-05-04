@@ -33,8 +33,8 @@ int main()
     cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video4.avi","40911911915",500);
     cont_altaForzada(contrataciones,LEN_CONT,array,QTY,2,"video5.avi","40911911915",600);
 
-    informar_ConsultaFacturacion(contrataciones,LEN_CONT,array,QTY,"20911911915");
-    informar_ListarContrataciones(contrataciones,LEN_CONT,array,QTY);
+    //informar_ConsultaFacturacion(contrataciones,LEN_CONT,array,QTY,"20911911915");
+    //informar_ListarContrataciones(contrataciones,LEN_CONT,array,QTY);
     informar_ListarCantidadContratacionesImporte(contrataciones,LEN_CONT,array,QTY);
 
 
@@ -67,7 +67,11 @@ int main()
 
                 break;
             case 7:
-                cont_alta(contrataciones,LEN_CONT,array,QTY);
+                //cont_alta(contrataciones,LEN_CONT,array,QTY);
+
+            case 8:
+                printf("Indicar algunas cosas. Las cosas son:\n");
+                informar_ListarContrataciones(contrataciones, LEN_CONT, array, QTY);
                 break;
 
 
