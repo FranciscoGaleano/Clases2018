@@ -1,0 +1,139 @@
+int getFactorial(int numero)
+{
+    int resultado;
+    if(numero == 1)
+    {
+        return 1;
+    }
+    resultado = numero * getFactorial(numero - 1);
+    return resultado;
+}
+
+
+float getFloat(char mensaje[])
+{
+    float auxiliar;
+    printf("%s",mensaje);
+    scanf("%f",&auxiliar);
+    return auxiliar;
+}
+
+int getInt(char mensaje[])
+{
+    int auxiliar;
+    printf("%s",mensaje);
+    scanf("%d",&auxiliar);
+    return auxiliar;
+}
+
+char getChar(char mensaje[])
+{
+    char auxiliar;
+    printf("%s",mensaje);
+    fflush(stdin); // Win
+    fpurge(stdin); //Linux y OSx
+    scanf("%c",&auxiliar);
+    return auxiliar;
+}
+
+char getNumeroAleatorio(int desde , int hasta, int iniciar)
+{
+    if(iniciar)
+        srand (time(NULL));
+    return desde + (rand() % (hasta + 1 - desde)) ;
+}
+
+int crearArray(int  * array, int cantidad)
+{
+    int retorno = -1;
+    int i;
+    for(i = 0; i < cantidad; i++)
+    {
+        printf("Ingrese aqui un numero\n");
+        scanf("%d", &array[i]);
+    }
+    retorno = 0;
+    return retorno;
+}
+
+int mostrarArray(int * array, int cantidad)
+{
+    int retorno = -1;
+    int i;
+    for(i = 0; i < cantidad; i++)
+    {
+        printf("%d\n", array[i]);
+    }
+    retorno = 0;
+    return retorno;
+}
+
+float mostrarArrayFlotantes(float * array, int cantidad)
+{
+    int retorno = -1;
+    int i;
+    for(i = 0; i < cantidad; i++)
+    {
+        printf("%.2f\n", array[i]);
+    }
+    retorno = 0;
+    return retorno;
+}
+
+int ordenarArrayIntInsertion(int * array, int cantidad, int orden)
+{
+	int auxiliar;
+    int i;
+    int j;
+
+	for(i = 1; i < cantidad; i++)
+	{
+		auxiliar = array[i];
+		j = i;
+		while(j > 0 && auxiliar < array[j - 1])
+       		 {
+			array[j] = array[j - 1];
+			j--;
+		}
+		array[j] = auxiliar;
+	}
+    return 0;
+}
+
+int ordenarArrayIntInsertion(int * array, int cantidad, int orden)
+{
+	int auxiliar;
+    int i;
+    int j;
+
+	for(i = 1; i < cantidad; i++) {
+		auxiliar = array[i];
+		j = i;
+		while(j > 0 && auxiliar < array[j - 1])
+        {
+			array[j] = array[j - 1];
+			j--;
+		}
+		array[j] = auxiliar;
+	}
+    return 0;
+}
+
+float ordenarArrayFlotantes(float * array, int cantidad, int orden)
+{
+    float auxiliar;
+    int i;
+    int j;
+
+    for(i = 1; i < cantidad; i++)
+    {
+        auxiliar = array[i];
+        j = i;
+        while(j > 0 && auxiliar < array[j-1])
+        {
+            array[j] = array[j-1];
+            j--;
+        }
+        array[j] = auxiliar;
+    }
+}

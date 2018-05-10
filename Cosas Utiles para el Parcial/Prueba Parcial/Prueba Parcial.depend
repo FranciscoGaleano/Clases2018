@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1524618393 source:c:\users\alumno\desktop\clase 10\prueba parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+	"producto.h"
+	"compra.h"
+
+1524618110 source:c:\users\alumno\desktop\clase 10\prueba parcial\producto.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+
+1524618379 source:c:\users\alumno\desktop\clase 10\prueba parcial\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+
+1524606845 source:c:\users\alumno\desktop\clase 10\prueba parcial\venta.c
+
+1524609609 c:\users\alumno\desktop\clase 10\prueba parcial\usuario.h
+
+1524612236 c:\users\alumno\desktop\clase 10\prueba parcial\producto.h
+
+1524609168 c:\users\alumno\desktop\clase 10\prueba parcial\venta.h
+
+1524611815 source:c:\users\alumno\desktop\clase 10\prueba parcial\compra.c
+
+1524617912 c:\users\alumno\desktop\clase 10\prueba parcial\compra.h
+
+1524751200 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\compra.c
+
+1525973487 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+	"producto.h"
+	"compra.h"
+
+1525626252 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\usuario.h
+
+1525626252 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\producto.h
+
+1525626252 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\compra.h
+
+1525626252 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\producto.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+
+1525975439 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\clase 10\prueba parcial\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	"usuario.h"
+
