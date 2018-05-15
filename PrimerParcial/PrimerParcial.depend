@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1526275179 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"clientes.h"
+	"avisos.h"
+	"informar.h"
+
+1526274705 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\avisos.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"avisos.h"
+	"clientes.h"
+
+1526141003 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	"clientes.h"
+
+1526277739 source:d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\informar.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"avisos.h"
+	"clientes.h"
+
+1526136231 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\clientes.h
+
+1526146547 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\avisos.h
+	"clientes.h"
+
+1526275117 d:\vazthian\desktop\vzthn gln\facultad\github\clases2018-master\tp_laboratorio_1-master\examen 10 de mayo\primerparcial\informar.h
+
