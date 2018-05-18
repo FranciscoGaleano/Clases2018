@@ -1,0 +1,33 @@
+cliente* cliente_new()
+{
+	return (Cliente*) malloc(sizeof(Cliente));
+}
+
+void cliente_delete(Cliente * this)
+{
+	free(this);
+}
+
+Para cada campo que tiene la estructura creamos otras 2 funciones, una de set y una de get
+
+int cliente_setEdad(Cliente * this, int edad)  -> reciben el a que le queremos setear algo
+{
+	int retorno = -1;
+	if(this != NULL && !validadEdad(edad))    -> aca la idea es llamar a una funcion que valide el parametro
+	{
+		this->edad = edad;	
+		retorno = 0;
+	}
+	return retorno;			
+}
+
+int cliente_getEdad(Cliente * this, int * edad)
+{
+	int retorno = -1;
+	if(this != NULL && edad != NULL)
+	{
+		*edad = this->edad;
+		retorno = 0;
+	}
+	return retorno;
+}
