@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1526777337 source:d:\vazthian\desktop\vzthn gln\facultad\toma2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aviso.h"
+	"cliente.h"
+
+1527107468 source:d:\vazthian\desktop\vzthn gln\facultad\toma2\informar.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"aviso.h"
+	"informar.h"
+
+1526592077 d:\vazthian\desktop\vzthn gln\facultad\toma2\cliente.h
+
+1526768236 d:\vazthian\desktop\vzthn gln\facultad\toma2\aviso.h
+	"cliente.h"
+
+1526768237 source:d:\vazthian\desktop\vzthn gln\facultad\toma2\aviso.c
+	<stdio.h>
+	<stdlib.h>
+	"cliente.h"
+	"aviso.h"
+
+1526774630 source:d:\vazthian\desktop\vzthn gln\facultad\toma2\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"aviso.h"
+
+1526776854 d:\vazthian\desktop\vzthn gln\facultad\toma2\informar.h
+	"aviso.h"
+
