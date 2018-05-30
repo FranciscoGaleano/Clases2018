@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1527695935 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\cascara\tp_3_cascara\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"validaciones.h"
+
+1527695936 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\cascara\tp_3_cascara\validaciones.h
+
+1527692630 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1527696400 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\cascara\tp_3_cascara\funciones.h
+
