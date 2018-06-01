@@ -69,25 +69,47 @@
 	"ArrayList.h"
 	"Employee.h"
 
-1527814786 source:c:\users\alumno\desktop\practica\practica\cliente.c
+1527815728 source:d:\practica\cliente.c
 	<stdio.h>
 	<stdlib.h>
-	"cliente.h"
 	"ArrayList.h"
+	"Cliente.h"
+	<string.h>
 
-1527813864 source:c:\users\alumno\desktop\practica\practica\main.c
+1527815728 source:d:\practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Cliente.h"
+	"utn.h"
+	"controller.h"
+
+1527802570 d:\practica\arraylist.h
+
+1527813263 d:\practica\cliente.h
+
+1527806215 source:d:\practica\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
 	"Cliente.h"
 
-1527802572 c:\users\alumno\desktop\practica\practica\arraylist.h
-
-1527812065 c:\users\alumno\desktop\practica\practica\cliente.h
-
-1527813861 source:c:\users\alumno\desktop\practica\practica\parser.c
+1527815787 source:d:\practica\controller.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"ArrayList.h"
+	"utn.h"
 	"cliente.h"
+
+1524691840 d:\practica\utn.h
+
+1527807965 d:\practica\controller.h
+
+1524691840 source:d:\practica\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
 
