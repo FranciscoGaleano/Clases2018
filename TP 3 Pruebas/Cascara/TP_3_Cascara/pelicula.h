@@ -9,6 +9,7 @@ typedef struct
     char descripcion[200];
     float puntaje;
     char linkImagen[100];
+    int idPelicula;
 }Pelicula;
 
 

@@ -17,7 +17,7 @@ int isValidFloat(char string[]);
 
 int isValidInt(char string[]);
 
-int isValidString(char* string);
+int isValidString(char string[]);
 
 int esAlfaNumerico(char string[]);
 

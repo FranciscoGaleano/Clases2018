@@ -220,7 +220,7 @@ int getStringLetras(char mensaje[], char input[])
 {
     char aux[256];
     getString(mensaje, aux);
-    if(esSoloLetras(aux))
+    if(isValidString(aux))
     {
         strcpy(input, aux);
         return 1;
@@ -238,7 +238,7 @@ int getStringNumeros(char mensaje[], char input[])
 {
     char aux[256];
     getString(mensaje, aux);
-    if(esNumerico(aux))
+    if(isValidInt(aux))
     {
         strcpy(input,aux);
         return 1;
@@ -257,7 +257,7 @@ int getStringNumerosFlotantes(char mensaje[],char input[])
 {
     char aux[256];
     getString(mensaje, aux);
-    if(esNumericoFlotante(aux))
+    if(isValidFloat(aux))
     {
         strcpy(input, aux);
         return 1;

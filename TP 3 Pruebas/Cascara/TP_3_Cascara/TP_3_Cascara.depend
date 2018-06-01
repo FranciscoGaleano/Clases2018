@@ -15,3 +15,26 @@
 
 1527696400 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\cascara\tp_3_cascara\funciones.h
 
+1527692630 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1527696400 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\funciones.h
+
+1527780893 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"validaciones.h"
+
+1527780862 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\validaciones.h
+
+1527784020 source:d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	"pelicula.h"
+
+1527783070 d:\vazthian\desktop\vzthn gln\facultad\trabajos practicos programación\tp 3\tp 3 pruebas\cascara\tp_3_cascara\pelicula.h
+
